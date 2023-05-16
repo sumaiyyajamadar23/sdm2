@@ -1,0 +1,101 @@
+Design Phase:
+List of Business entities:
+
+customers:	
+             firstname,lastname, email, 
+products:     id, title, description, quantities available
+	      category,
+	      reivews
+	      comments
+	      rating,
+	      unitprice
+vendors
+Shoppers
+Staff; sales rep, marking rep, director, 
+catalog
+orders:
+	orderid, orderdate, customerid, amount, status
+orderitems
+	itemid, quantities
+issues
+cart
+	cart id, items,
+items
+	itemid , quatities
+payments:
+	 paymentid, orderid, payamentdate, amount, status
+	 transationid
+documents
+shipments : deliveries: 
+Categories
+users
+deliveries
+grid
+dashboard
+feedbacks
+
+wish
+
+
+transations:
+	  transactionid, 
+	  transactiondate,
+	  mode
+	  from account
+	  to account
+	  amount,
+
+
+
+
+
+Bussiness Operations to be automated by Online shopping application
+Deliver parcel
+Track order
+approve
+add item to cart
+remove item from cart
+Show item
+place order
+show orders 
+show orderdetails
+raise complaint
+Cancel order
+update product
+recommend product
+submit feedback
+transfer amount
+update customer personal information
+register verdor
+validate user
+change password
+forgot passwrod
+get user details
+Login
+Logout
+Notify
+get customer details
+List products
+show product details
+add item to wishlist
+remove item from wishlist
+show items availablint in wishlist
+
+CRUD Operations:
+C:Create
+R:Read
+U:Update
+D:Delete
+
+DML Operations:
+
+TCL Operations: (control) (workflow) (automated bussiness process)
+	commit : approve
+	rollback :reject
+	savePoint: level 
+	restore
+	reset
+	discard
+	save
+
+Query Operations:                                                                                                                                                                              k
